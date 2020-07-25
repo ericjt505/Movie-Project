@@ -2,40 +2,41 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>My Movie Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Movie Site</title>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="screen-style.css">
   </head>
 
   <body>
-    <nav>
-      <ul>
-        <li><a href="index.html"></a>Home</li>
-        <li><a href="screens.html"></a>About Us</li>
-        <li><a href="fans.html"></a>Join the MoviClub</li>
-      </ul>
-    </nav>
+    <div id="navbar">
+      <div id="navbar-left">
+        <a class="active" href="index.html">Home</a>
+        <a href="screens.html">Movie Details</a>
+        <a href="fans.html">Movie Club</a>
+      </div>
+    </div>
+
+    <header>
+      <h1>About The Equalizer</h1>
+    </header>
 
     <main>
       <article>
-        <h2>The Equalizer (2014)</h2>
-        <p>Rated: R | 2h 12min | Action, Crime, Thriller | 26 September 2014 (USA)</p>
-        <p><b>Director:</b> Antoine Fugua</p>
-        <p><b>Writers:</b> Richard Wenk, Michael Sloan</p>
-        <p><b>Stars:</b> Denzel Washington, Marton Csokas, Chloe Grace Moretz</p>
+        <h4>Rated: R | 2h 12min | Action, Crime, Thriller | Released 26 September 2014 (USA)</h4>
+        <div>
+          <p><b>DIRECTOR:</b> Antoine Fugua</p>
+          <p><b>WRITERS:</b> Richard Wenk, Michael Sloan</p>
+          <p><b>STARS:</b> Denzel Washington, Marton Csokas, Chloë Grace Moretz | <a href="https://www.imdb.com/title/tt0455944/fullcredits/?ref_=tt_ov_st_sm">See full cast & crew</a></p>
+          <p><b>Storyline: </b>Robert McCall,'s a former special service commando who faked his own death in hopes of living out a quiet life. Instead, he comes out of his self-imposed retirement to save a young girl, and finds his desire for justice reawakened after coming face-to-face with members of a brutal Russian gang. McCall becomes the go-to man when the helpless require the kind of vengeance they would never find without his skills.</p>
+        </div>
       </article>
 
       <div class="closing-image">
-        <img src="images/example-size1.png" alt="The Equalizer">
-      </div>
-
-      <div class="closing-image">
-        <img src="images/example-size2.png" alt="The Equalizer">
-      </div>
-
-      <div class="closing-image">
-        <img src="images/example-large.png" alt="The Equalizer">
+        <img src="images/example-size1.png" alt="sitting in the chair">
+        <img src="images/example-size2.png" alt="McCall in the dinner">
+        <img src="images/example-bottom.png" alt="The Equalizer">
+        <div class="clearfix"></div>
       </div>
     </main>
   </body>
